@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="stopwatch">
+        <h1 class="stopwatch__title">StopWatch</h1>
+        <h2 id="timer" class="stopwatch__timer">00:00:00</h2>
+        <div class="stopwatch__cta">
+            <button id="start" onclick="startTimer()">Start</button>
+            <button id="stop" onclick="stopTimer()">Stop</button>
+            <button id="reset" onclick="resetTimer()">Reset</button>
+        </div>
+        <input type="date" id="date-picker" class="stopwatch__date">
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

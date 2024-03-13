@@ -1,0 +1,32 @@
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stopwatch__title {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.stopwatch__timer {
+    margin: 0 0 48px 0;
+    font-size: 120px;
+    color: white;
+    background-color: rgb(51, 162, 193);
+    padding: 40px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.stopwatch__cta {
+    margin: 0 0 20px;
+}
+
+.stopwatch__cta > button {
+    padding: 12px 20px;
+}
+
+.stopwatch__date {
+    width: 120px;
+}
