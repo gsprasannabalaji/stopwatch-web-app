@@ -60,3 +60,7 @@ const formattedDate = `${year}-${month}-${day}`;
 dateRef.setAttribute('value', formattedDate);
 
 dateRef.setAttribute('max', formattedDate);
+
+dateRef.addEventListener('keydown', function(event) {
+    event.preventDefault();
+});
